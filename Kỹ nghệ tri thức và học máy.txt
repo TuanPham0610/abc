@@ -1,0 +1,57 @@
+.LOG
+
+Kỹ nghệ tri thức và học máy
+
+Dataframe : Khung dữ liệu
+
+Các thư viện chính
+
+-Jupyter
+
+-Pandas
+
+-Numpy
+
+-Mathplotlib
+
+-Sklearn
+
+
+I-Jupyter
+Cách khởi động jupyter
+Bước 1 : Bật thanh tìm kiếm windown chọn Anaconda Powershell Prompt 
+Bước 2 : Gõ cd E: 
+Bước 3 : Chọn file cần mở. Ví dụ ở đây file cần mở là TDHDL : cd TQHDL/
+Bước 4 : Gõ jupyter notebook
+
+II-Thư viện Pandas
+1-Tổng quan
+-Pandas là một thư viện của python, được thiết kế để phân tích và thao tác dữ liệu một cách nhanh chóng
+-Pandas là viết tắt của panel data tức là bảng dữ liệu
+-Cung cấp 2 cấu trúc dữ liệu chính là Series(1) và Dataframe(2)
+(1) Là mảng một chiều giống Numpy, hay như là 1 cột của 1 bảng
+
+#Đọc file csv
+tên_biến = pd.read_csv("Đường dẫn file")
+tên_biến
+
+tên_biến.shape - hiển thị kích thước bảng
+tên_biến.sample(5) - Lấy 5 dòng ngẫu nhiên
+tên_biến.info() - Thông tin bảng
+tên_biến.head() - 5 dòng đầu
+tên_biến.tail() - 5 dòng cuối
+
+#Đọc file xlsx
+#Đọc dữ liệu trong file Excel Data_Movies.xlsx
+
+df_movie1 = pd.read_excel("Data\Data_Movies.xlsx",
+                        sheet_name='1900s')
+
+df_movie1
+
+
+
+
+
+
+ 
