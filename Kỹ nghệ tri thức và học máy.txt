@@ -47,11 +47,23 @@ tên_biến.tail() - 5 dòng cuối
 df_movie1 = pd.read_excel("Data\Data_Movies.xlsx",
                         sheet_name='1900s')
 
-df_movie1
 
+Chương 3:
 
+Học có giám sát là tập dữ liệu học bao gồm các quan sát (x),  mà mỗi quan sát được gắn kèm với 1 giá trị đầu ra mong muốn ( label -y)
 
+Cặp (X, Y) ( tập dữ liệu có x và y là data có gán nhãn => học có giám sát )
+x: Độc lập
+y: Phụ thuộc
 
+Học có giám sát chia thành 2 loại:
+_Phân loại (Classsiflcation)
+_Hồi quy (Refression)
 
-
- 
+Nội dung chương 3 phần 1
+1-Giới thiệu thật toán KNN
+K- nearest neighbors( k-NN) một trong những thuật toán đơn giản nhất và phổ biến trong học máy. Một số tên gọi khác:
++ Instance - based learning
++ Lazy learning
++ Memory-based learning
+ý tưởng của thuật toán này là nó không học một điều gì từ tập dữ liệu học , mọi tính toán được thực hiện khi cần dự đoán nhãn của dữ liệu mới
