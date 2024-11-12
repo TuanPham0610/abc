@@ -1,0 +1,15 @@
+CREATE TABLE olympics (
+    country STRING,
+    country_code STRING,
+    region STRING,
+    gold INT,
+    silver INT,
+    bronze INT,
+    total INT,
+    gdp FLOAT,
+    gdp_year INT,
+    population FLOAT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
